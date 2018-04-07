@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="Knobby.repo" name="Knobby TV" version="0.1.8" provider-name="Knobby">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Knobby TV">
+            <info compressed="false">_addons.xml</info>
+            <checksum>_addons.xml.md5</checksum>
+            <datadir zip="true">_</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install all of KNOBBYS TV ADD ONS</summary>
+            <description>Knobbys stuff</description>
+            <platform>all</platform>
+    </extension>
+</addon>
